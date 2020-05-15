@@ -1,0 +1,22 @@
+{
+  "name": "Building theme",
+  "author": "Malo Germond",
+  "icon": "icon.png",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Generate theme artboard",
+      "identifier": "demo",
+      "script": "./theme-demo.js"
+    },
+    {
+      "name": "Create a new theme",
+      "identifier": "newTheme",
+      "script": "./new-theme.js"
+    }
+  ],
+  "menu": {
+    "items": ["newTheme", "demo"]
+  }
+}

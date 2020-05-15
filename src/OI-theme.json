@@ -1,0 +1,967 @@
+{
+  "vars": {
+    "opacityhighon500900": 1,
+    "opacitymediumon500900": 0.8,
+    "opacitylighton500900": 0.6,
+    "opacitydisabledon500900": 0.5,
+    "opacityhighon050400": 1,
+    "opacitymediumon050400": 0.7,
+    "opacitylighton050400": 0.5,
+    "opacitydisabledon050400": 0.38
+  },
+  "colors": {
+    "__base__": {
+      "opacity": 1
+    },
+    "surface050": {
+      "color": "#ffffff"
+    },
+    "surface100": {
+      "color": "#f5f5f5"
+    },
+    "surface200": {
+      "color": "#ebedf0"
+    },
+    "surface300": {
+      "color": "#cbd0da"
+    },
+    "surface400": {
+      "color": "#7C8898"
+    },
+    "surface500": {
+      "color": "#70849a"
+    },
+    "surface600": {
+      "color": "#586f88"
+    },
+    "surface700": {
+      "color": "#40556b"
+    },
+    "surface800": {
+      "color": "#2d3c4c"
+    },
+    "surface900": {
+      "color": "#222e3c"
+    },
+
+    "primary050": {
+      "color": "#fdedea"
+    },
+    "primary100": {
+      "color": "#fad3ca"
+    },
+    "primary200": {
+      "color": "#f7b5a6"
+    },
+    "primary300": {
+      "color": "#f49782"
+    },
+    "primary400": {
+      "color": "#f18168"
+    },
+    "primary500": {
+      "color": "#ef6b4d"
+    },
+    "primary600": {
+      "color": "#ed6346"
+    },
+    "primary700": {
+      "color": "#eb583d"
+    },
+    "primary800": {
+      "color": "#e84e34"
+    },
+    "primary900": {
+      "color": "#e43c25"
+    },
+    "primarymain": {
+      "color": "$colors.primary500.color"
+    },
+
+    "tracker050": {
+      "color": "$colors.primary050.color"
+    },
+    "tracker100": {
+      "color": "$colors.primary100.color"
+    },
+    "tracker200": {
+      "color": "$colors.primary200.color"
+    },
+    "tracker300": {
+      "color": "$colors.primary300.color"
+    },
+    "tracker400": {
+      "color": "$colors.primary400.color"
+    },
+    "tracker500": {
+      "color": "$colors.primary500.color"
+    },
+    "tracker600": {
+      "color": "$colors.primary600.color"
+    },
+    "tracker700": {
+      "color": "$colors.primary700.color"
+    },
+    "tracker800": {
+      "color": "$colors.primary800.color"
+    },
+    "tracker900": {
+      "color": "$colors.primary900.color"
+    },
+    "trackermain": {
+      "color": "$colors.tracker500.color"
+    },
+
+    "password050": {
+      "color": "#fff5e6"
+    },
+    "password100": {
+      "color": "#fee7c1"
+    },
+    "password200": {
+      "color": "#fed798"
+    },
+    "password300": {
+      "color": "#fec76f"
+    },
+    "password400": {
+      "color": "#fdbb50"
+    },
+    "password500": {
+      "color": "#fdaf31"
+    },
+    "password600": {
+      "color": "#fda82c"
+    },
+    "password700": {
+      "color": "#fc9f25"
+    },
+    "password800": {
+      "color": "#fc961f"
+    },
+    "password900": {
+      "color": "#fc8613"
+    },
+    "passwordmain": {
+      "color": "$colors.password500.color"
+    },
+
+    "alias050": {
+      "color": "#ebf6f4"
+    },
+    "alias100": {
+      "color": "#cde8e3"
+    },
+    "alias200": {
+      "color": "#acd9d1"
+    },
+    "alias300": {
+      "color": "#8ac9bf"
+    },
+    "alias400": {
+      "color": "#71beb1"
+    },
+    "alias500": {
+      "color": "#58b2a3"
+    },
+    "alias600": {
+      "color": "#50ab9b"
+    },
+    "alias700": {
+      "color": "#47a291"
+    },
+    "alias800": {
+      "color": "#3d9988"
+    },
+    "alias900": {
+      "color": "#2d8a77"
+    },
+    "aliasmain": {
+      "color": "$colors.alias500.color"
+    },
+
+    "data050": {
+      "color": "#e4eef6"
+    },
+    "data100": {
+      "color": "#bbd4ea"
+    },
+    "data200": {
+      "color": "#8eb8dc"
+    },
+    "data300": {
+      "color": "#619ccd"
+    },
+    "data400": {
+      "color": "#3f86c3"
+    },
+    "data500": {
+      "color": "#1d71b8"
+    },
+    "data600": {
+      "color": "#1a69b1"
+    },
+    "data700": {
+      "color": "#155ea8"
+    },
+    "data800": {
+      "color": "#1154a0"
+    },
+    "data900": {
+      "color": "#0a4291"
+    },
+    "datamain": {
+      "color": "$colors.data500.color"
+    },
+
+    "red900": {
+      "color": "#cb1f00"
+    },
+    "red500": {
+      "color": "#e02b02"
+    },
+    "red100": {
+      "color": "#fff2ef"
+    },
+    "green900": {
+      "color": "#00812e"
+    },
+    "green500": {
+      "color": "#4ab77a"
+    },
+    "green100": {
+      "color": "#f3fbf7"
+    },
+    "orange900": {
+      "color": "#CB4F04"
+    },
+    "orange500": {
+      "color": "#fb8417"
+    },
+    "orange100": {
+      "color": "#fff6ef"
+    },
+    "blue900": {
+      "color": "#1e55bc"
+    },
+    "blue500": {
+      "color": "#409cea"
+    },
+    "blue100": {
+      "color": "#f2f9fe"
+    },
+    "redmain": {
+      "color": "$colors.red500.color"
+    },
+    "greenmain": {
+      "color": "$colors.green500.color"
+    },
+    "orangemain": {
+      "color": "$colors.orange500.color"
+    },
+    "bluemain": {
+      "color": "$colors.blue500.color"
+    },
+    "onsurface050/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onsurface050/default/high": {
+      "__inherit__": "$colors.onsurface050/default",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/default/medium": {
+      "__inherit__": "$colors.onsurface050/default",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/default/light": {
+      "__inherit__": "$colors.onsurface050/default",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/default/disabled": {
+      "__inherit__": "$colors.onsurface050/default",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface050/gray": {
+      "color": "$colors.surface600.color"
+    },
+    "onsurface050/gray/high": {
+      "__inherit__": "$colors.onsurface050/gray",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/gray/medium": {
+      "__inherit__": "$colors.onsurface050/gray",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/gray/light": {
+      "__inherit__": "$colors.onsurface050/gray",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/gray/disabled": {
+      "__inherit__": "$colors.onsurface050/gray",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface050/primary": {
+      "color": "$colors.primarymain.color"
+    },
+    "onsurface050/primary/high": {
+      "__inherit__": "$colors.onsurface050/primary",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/primary/medium": {
+      "__inherit__": "$colors.onsurface050/primary",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/primary/light": {
+      "__inherit__": "$colors.onsurface050/primary",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/primary/disabled": {
+      "__inherit__": "$colors.onsurface050/primary",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface050/blue": {
+      "color": "$colors.blue900.color"
+    },
+    "onsurface050/blue/high": {
+      "__inherit__": "$colors.onsurface050/blue",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/blue/medium": {
+      "__inherit__": "$colors.onsurface050/blue",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/blue/light": {
+      "__inherit__": "$colors.onsurface050/blue",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/blue/disabled": {
+      "__inherit__": "$colors.onsurface050/blue",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface050/green": {
+      "color": "$colors.green900.color"
+    },
+    "onsurface050/green/high": {
+      "__inherit__": "$colors.onsurface050/green",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/green/medium": {
+      "__inherit__": "$colors.onsurface050/green",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/green/light": {
+      "__inherit__": "$colors.onsurface050/green",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/green/disabled": {
+      "__inherit__": "$colors.onsurface050/green",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface050/orange": {
+      "color": "$colors.orange900.color"
+    },
+    "onsurface050/orange/high": {
+      "__inherit__": "$colors.onsurface050/orange",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/orange/medium": {
+      "__inherit__": "$colors.onsurface050/orange",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/orange/light": {
+      "__inherit__": "$colors.onsurface050/orange",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/orange/disabled": {
+      "__inherit__": "$colors.onsurface050/orange",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface050/red": {
+      "color": "$colors.redmain.color"
+    },
+    "onsurface050/red/high": {
+      "__inherit__": "$colors.onsurface050/red",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface050/red/medium": {
+      "__inherit__": "$colors.onsurface050/red",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface050/red/light": {
+      "__inherit__": "$colors.onsurface050/red",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface050/red/disabled": {
+      "__inherit__": "$colors.onsurface050/red",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onsurface100/default/high": {
+      "__inherit__": "$colors.onsurface100/default",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/default/medium": {
+      "__inherit__": "$colors.onsurface100/default",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/default/light": {
+      "__inherit__": "$colors.onsurface100/default",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/default/disabled": {
+      "__inherit__": "$colors.onsurface100/default",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/gray": {
+      "color": "$colors.surface600.color"
+    },
+    "onsurface100/gray/high": {
+      "__inherit__": "$colors.onsurface100/gray",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/gray/medium": {
+      "__inherit__": "$colors.onsurface100/gray",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/gray/light": {
+      "__inherit__": "$colors.onsurface100/gray",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/gray/disabled": {
+      "__inherit__": "$colors.onsurface100/gray",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/primary": {
+      "color": "$colors.primary700.color"
+    },
+    "onsurface100/primary/high": {
+      "__inherit__": "$colors.onsurface100/primary",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/primary/medium": {
+      "__inherit__": "$colors.onsurface100/primary",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/primary/light": {
+      "__inherit__": "$colors.onsurface100/primary",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/primary/disabled": {
+      "__inherit__": "$colors.onsurface100/primary",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/blue": {
+      "color": "$colors.blue900.color"
+    },
+    "onsurface100/blue/high": {
+      "__inherit__": "$colors.onsurface100/blue",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/blue/medium": {
+      "__inherit__": "$colors.onsurface100/blue",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/blue/light": {
+      "__inherit__": "$colors.onsurface100/blue",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/blue/disabled": {
+      "__inherit__": "$colors.onsurface100/blue",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/green": {
+      "color": "$colors.green900.color"
+    },
+    "onsurface100/green/high": {
+      "__inherit__": "$colors.onsurface100/green",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/green/medium": {
+      "__inherit__": "$colors.onsurface100/green",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/green/light": {
+      "__inherit__": "$colors.onsurface100/green",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/green/disabled": {
+      "__inherit__": "$colors.onsurface100/green",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/orange": {
+      "color": "$colors.orange900.color"
+    },
+    "onsurface100/orange/high": {
+      "__inherit__": "$colors.onsurface100/orange",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/orange/medium": {
+      "__inherit__": "$colors.onsurface100/orange",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/orange/light": {
+      "__inherit__": "$colors.onsurface100/orange",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/orange/disabled": {
+      "__inherit__": "$colors.onsurface100/orange",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface100/red": {
+      "color": "$colors.red900.color"
+    },
+    "onsurface100/red/high": {
+      "__inherit__": "$colors.onsurface100/red",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onsurface100/red/medium": {
+      "__inherit__": "$colors.onsurface100/red",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onsurface100/red/light": {
+      "__inherit__": "$colors.onsurface100/red",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onsurface100/red/disabled": {
+      "__inherit__": "$colors.onsurface100/red",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onsurface900/default": {
+      "color": "$colors.surface050.color"
+    },
+    "onsurface900/default/high": {
+      "__inherit__": "$colors.onsurface900/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/default/medium": {
+      "__inherit__": "$colors.onsurface900/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/default/light": {
+      "__inherit__": "$colors.onsurface900/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/default/disabled": {
+      "__inherit__": "$colors.onsurface900/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+    "onsurface900/gray": {
+      "color": "$colors.surface300.color"
+    },
+    "onsurface900/gray/high": {
+      "__inherit__": "$colors.onsurface900/gray",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/gray/medium": {
+      "__inherit__": "$colors.onsurface900/gray",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/gray/light": {
+      "__inherit__": "$colors.onsurface900/gray",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/gray/disabled": {
+      "__inherit__": "$colors.onsurface900/gray",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onsurface900/primary": {
+      "color": "$colors.primarymain.color"
+    },
+    "onsurface900/primary/high": {
+      "__inherit__": "$colors.onsurface900/primary",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/primary/medium": {
+      "__inherit__": "$colors.onsurface900/primary",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/primary/light": {
+      "__inherit__": "$colors.onsurface900/primary",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/primary/disabled": {
+      "__inherit__": "$colors.onsurface900/primary",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+    "onsurface900/blue": {
+      "color": "#7899D6"
+    },
+    "onsurface900/blue/high": {
+      "__inherit__": "$colors.onsurface900/blue",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/blue/medium": {
+      "__inherit__": "$colors.onsurface900/blue",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/blue/light": {
+      "__inherit__": "$colors.onsurface900/blue",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/blue/disabled": {
+      "__inherit__": "$colors.onsurface900/blue",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onsurface900/green": {
+      "color": "#66B381"
+    },
+    "onsurface900/green/high": {
+      "__inherit__": "$colors.onsurface900/green",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/green/medium": {
+      "__inherit__": "$colors.onsurface900/green",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/green/light": {
+      "__inherit__": "$colors.onsurface900/green",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/green/disabled": {
+      "__inherit__": "$colors.onsurface900/green",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onsurface900/orange": {
+      "color": "#EB9968"
+    },
+    "onsurface900/orange/high": {
+      "__inherit__": "$colors.onsurface900/orange",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/orange/medium": {
+      "__inherit__": "$colors.onsurface900/orange",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/orange/light": {
+      "__inherit__": "$colors.onsurface900/orange",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/orange/disabled": {
+      "__inherit__": "$colors.onsurface900/orange",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onsurface900/red": {
+      "color": "#DF7866"
+    },
+    "onsurface900/red/high": {
+      "__inherit__": "$colors.onsurface900/red",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface900/red/medium": {
+      "__inherit__": "$colors.onsurface900/red",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface900/red/light": {
+      "__inherit__": "$colors.onsurface900/red",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface900/red/disabled": {
+      "__inherit__": "$colors.onsurface900/red",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+    "onsurface400/default": {
+      "color": "$colors.surface050.color"
+    },
+    "onsurface400/default/high": {
+      "__inherit__": "$colors.onsurface400/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onsurface400/default/medium": {
+      "__inherit__": "$colors.onsurface400/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onsurface400/default/light": {
+      "__inherit__": "$colors.onsurface400/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onsurface400/default/disabled": {
+      "__inherit__": "$colors.onsurface400/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onprimary/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onprimary/default/high": {
+      "__inherit__": "$colors.onprimary/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onprimary/default/medium": {
+      "__inherit__": "$colors.onprimary/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onprimary/default/light": {
+      "__inherit__": "$colors.onprimary/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onprimary/default/disabled": {
+      "__inherit__": "$colors.onprimary/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "ontracker/default": {
+      "color": "$colors.surface900.color"
+    },
+    "ontracker/default/high": {
+      "__inherit__": "$colors.ontracker/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "ontracker/default/medium": {
+      "__inherit__": "$colors.ontracker/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "ontracker/default/light": {
+      "__inherit__": "$colors.ontracker/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "ontracker/default/disabled": {
+      "__inherit__": "$colors.ontracker/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onpassword/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onpassword/default/high": {
+      "__inherit__": "$colors.onpassword/default",
+      "opacity": "$vars.opacityhighon050400"
+    },
+    "onpassword/default/medium": {
+      "__inherit__": "$colors.onpassword/default",
+      "opacity": "$vars.opacitymediumon050400"
+    },
+    "onpassword/default/light": {
+      "__inherit__": "$colors.onpassword/default",
+      "opacity": "$vars.opacitylighton050400"
+    },
+    "onpassword/default/disabled": {
+      "__inherit__": "$colors.onpassword/default",
+      "opacity": "$vars.opacitydisabledon050400"
+    },
+
+    "onalias/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onalias/default/high": {
+      "__inherit__": "$colors.onalias/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onalias/default/medium": {
+      "__inherit__": "$colors.onalias/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onalias/default/light": {
+      "__inherit__": "$colors.onalias/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onalias/default/disabled": {
+      "__inherit__": "$colors.onalias/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "ondata/default": {
+      "color": "$colors.surface050.color"
+    },
+    "ondata/default/high": {
+      "__inherit__": "$colors.ondata/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "ondata/default/medium": {
+      "__inherit__": "$colors.ondata/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "ondata/default/light": {
+      "__inherit__": "$colors.ondata/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "ondata/default/disabled": {
+      "__inherit__": "$colors.ondata/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onred/default": {
+      "color": "$colors.surface050.color"
+    },
+    "onred/default/high": {
+      "__inherit__": "$colors.onred/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onred/default/medium": {
+      "__inherit__": "$colors.onred/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onred/default/light": {
+      "__inherit__": "$colors.onred/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onred/default/disabled": {
+      "__inherit__": "$colors.onred/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "ongreen/default": {
+      "color": "$colors.surface900.color"
+    },
+    "ongreen/default/high": {
+      "__inherit__": "$colors.ongreen/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "ongreen/default/medium": {
+      "__inherit__": "$colors.ongreen/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "ongreen/default/light": {
+      "__inherit__": "$colors.ongreen/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "ongreen/default/disabled": {
+      "__inherit__": "$colors.ongreen/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onblue/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onblue/default/high": {
+      "__inherit__": "$colors.onblue/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onblue/default/medium": {
+      "__inherit__": "$colors.onblue/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onblue/default/light": {
+      "__inherit__": "$colors.onblue/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onblue/default/disabled": {
+      "__inherit__": "$colors.onblue/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    },
+
+    "onorange/default": {
+      "color": "$colors.surface900.color"
+    },
+    "onorange/default/high": {
+      "__inherit__": "$colors.onorange/default",
+      "opacity": "$vars.opacityhighon500900"
+    },
+    "onorange/default/medium": {
+      "__inherit__": "$colors.onorange/default",
+      "opacity": "$vars.opacitymediumon500900"
+    },
+    "onorange/default/light": {
+      "__inherit__": "$colors.onorange/default",
+      "opacity": "$vars.opacitylighton500900"
+    },
+    "onorange/default/disabled": {
+      "__inherit__": "$colors.onorange/default",
+      "opacity": "$vars.opacitydisabledon500900"
+    }
+  },
+  "fonts": {
+    "__base__": {
+      "fontFamily": "roboto"
+    },
+    "h1": {
+      "fontWeight": "regular",
+      "fontSize": 96,
+      "lineHeight": 104,
+      "letterSpacing": 0
+    },
+    "h2": {
+      "fontWeight": "regular",
+      "fontSize": 72,
+      "lineHeight": 72,
+      "letterSpacing": 0.5
+    },
+    "h3": {
+      "fontWeight": "regular",
+      "fontSize": 48,
+      "lineHeight": 56,
+      "letterSpacing": 0
+    },
+    "h4": {
+      "fontWeight": "medium",
+      "fontSize": 32,
+      "lineHeight": 40,
+      "letterSpacing": 0.25
+    },
+    "h5": {
+      "fontWeight": "medium",
+      "fontSize": 24,
+      "lineHeight": 32,
+      "letterSpacing": 0
+    },
+    "h6": {
+      "fontWeight": "medium",
+      "fontSize": 20,
+      "lineHeight": 24,
+      "letterSpacing": 0.25
+    },
+    "body1": {
+      "fontWeight": "regular",
+      "fontSize": 16,
+      "lineHeight": 20,
+      "letterSpacing": 0.5
+    },
+    "body2": {
+      "fontWeight": "regular",
+      "fontSize": 14,
+      "lineHeight": 18,
+      "letterSpacing": 0.5
+    },
+    "subtitle1": {
+      "fontWeight": "bold",
+      "fontSize": 16,
+      "lineHeight": 20,
+      "letterSpacing": 0.15
+    },
+    "subtitle2": {
+      "fontWeight": "bold",
+      "fontSize": 14,
+      "lineHeight": 18,
+      "letterSpacing": 0.1
+    },
+    "button": {
+      "fontWeight": "medium",
+      "fontSize": 14,
+      "lineHeight": 18,
+      "letterSpacing": 1.25,
+      "textTransform": "uppercase"
+    },
+    "caption": {
+      "fontWeight": "regular",
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacing": 0.4
+    },
+    "overline": {
+      "fontWeight": "medium",
+      "fontSize": 12,
+      "lineHeight": 16,
+      "letterSpacing": 0.7,
+      "textTransform": "uppercase"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Building theme",
+  "author": "Malo Germond",
+  "icon": "icon.png",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Generate theme artboard",
+      "identifier": "demo",
+      "script": "__theme-demo.js"
+    },
+    {
+      "name": "Create a new theme",
+      "identifier": "newTheme",
+      "script": "__new-theme.js"
+    }
+  ],
+  "menu": {
+    "items": [
+      "newTheme",
+      "demo"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "A pluggin that allow you to create text-style and layer style from a .json and check accessiblity.",
+  "identifier": "buildTheme",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
