@@ -69,28 +69,12 @@
       "id": "74E23A88-89D6-4B3B-83D6-A7FE202D4B2F"
     },
     {
-      "class": "rectangle",
-      "id": "52260468-9BF2-4557-824B-E7C3D8C43419"
-    },
-    {
       "class": "group",
       "id": "9189A2AF-91F7-4D5A-B5E7-550CF62E9222"
     },
     {
       "class": "shapeGroup",
-      "id": "762A9423-6470-46B2-9E60-2777C1CC0D97"
-    },
-    {
-      "class": "shapeGroup",
-      "id": "3FED3136-F2CA-4F9C-B2C4-8171ACAE8CF7"
-    },
-    {
-      "class": "shapeGroup",
-      "id": "C2231273-A9E5-49EC-BEFC-7FF451A33DB7"
-    },
-    {
-      "class": "shapePath",
-      "id": "D708DE69-C363-48A6-8BD3-CDF5E42F3212"
+      "id": "561228EE-2A2B-4326-8F73-3D94ADE73958"
     }
   ],
   "name": "icon",
